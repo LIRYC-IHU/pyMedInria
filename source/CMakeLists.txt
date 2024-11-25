@@ -3,6 +3,6 @@
 
 add_subdirectory(package)
 
-if(MED_STANDALONE)
+if(PYMED_STANDALONE)
     add_subdirectory(standalone)
 endif()
