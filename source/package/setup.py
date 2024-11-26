@@ -10,7 +10,7 @@ setup(name='pymedinria',
       version='@PROJECT_VERSION@',
       packages=find_packages(include=['pymedinria', 'pymedinria.*']),
       install_requires=[
-      '@MED_PYSIDE_PACKAGE@',
+      '@PYMED_PYSIDE_PACKAGE@',
       'numpy',
       'SimpleITK',
       'vtk',
